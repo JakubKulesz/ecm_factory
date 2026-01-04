@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecm_factory"
+version = "1.0.0"
+description = "A Python package containing classes that enable estimation and forecasting with different variants of the error correction models."
+requires-python = ">=3.11"
+
+authors = [{ name = "Jakub Kulesz", email = "kuleszjakub@gmail.com" }]
+license = { text = "MIT" }
+
+dependencies = ["pandas>=2.1.1", "numpy>=1.26.0", "statsmodels>=0.14.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]

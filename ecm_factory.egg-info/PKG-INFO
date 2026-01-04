@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ecm_factory
+Version: 1.0.0
+Summary: A Python package containing classes that enable estimation and forecasting with different variants of the error correction models.
+Author: Jakub Kulesz
+Author-email: Jakub Kulesz <kuleszjakub@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.1.1
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: statsmodels>=0.14.0
