@@ -1,0 +1,3 @@
+exclude docs/*
+exclude docs/_build/*
+exclude docs/build/
