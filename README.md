@@ -1,4 +1,4 @@
-ec_factory
+ecm_factory
 ===================
 
 **Author & Maintainer:** Jakub Kulesz  
@@ -246,4 +246,5 @@ plt.grid(True)
     
 ![png](README_files/README_17_0.png)
     
+
 
